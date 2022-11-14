@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Daily Coding 7 Blog',
+  title: 'Daily Coding 7',
   author: 'Fikri Abdul',
   headerTitle: 'Daily Coding 7',
   description: 'Mainly focusing on Latest Web technology stacks',
