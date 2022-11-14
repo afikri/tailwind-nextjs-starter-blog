@@ -1,9 +1,9 @@
 ---
-name: Tails Azimuth
+name: Fikri Abdul
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Scifence
-company: Stanford University
-email: address@yoursite.com
+occupation: Fullstack Developer
+company:
+email: dailycoding7@gmail.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
 github: https://github.com
