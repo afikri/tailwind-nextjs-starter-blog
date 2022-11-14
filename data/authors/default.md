@@ -1,7 +1,7 @@
 ---
 name: Tails Azimuth
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
+occupation: Professor of Atmospheric Scifence
 company: Stanford University
 email: address@yoursite.com
 twitter: https://twitter.com/Twitter
