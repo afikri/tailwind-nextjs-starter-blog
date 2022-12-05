@@ -1,10 +1,10 @@
 ---
-title: 'New features in v1'
-date: 2021-08-07T15:32:14Z
-lastmod: '2021-02-01'
+title: 'Hello World'
+date: 2022-11-27T15:32:14Z
+lastmod: '2022-11-26'
 tags: ['next-js', 'tailwind', 'guide']
 draft: false
-summary: 'An overview of the new features released in v1 - code block copy, multiple authors, frontmatter layout and more'
+summary: 'Yadda dsadsae'
 layout: PostSimple
 bibliography: references-data.bib
 canonicalUrl: https://tailwind-nextjs-starter-blog.vercel.app/blog/new-features-in-v1/
@@ -27,7 +27,7 @@ You can easily modify the theme color by changing the primary attribute in the t
 ```js:tailwind.config.js
 theme: {
     colors: {
-      primary: colors.teal,
+      primary: colors.blue,
       gray: colors.neutral,
       ...
     }
@@ -271,14 +271,14 @@ This is rendered in the `AuthorLayout` template.
 
 The frontmatter of a blog post accepts an optional `authors` array field. If no field is specified, it is assumed that the default author is used. Simply pass in an array of authors to render multiple authors associated with a post.
 
-For example, the following frontmatter will display the authors given by `data/authors/default.md` and `data/authors/sparrowhawk.md`
+For example, the following frontmatter will display the authors given by `data/authors/default.md`
 
 ```yaml
 title: 'My first post'
 date: '2021-01-12'
 draft: false
 summary: 'My first post'
-authors: ['default', 'sparrowhawk']
+authors: ['default']
 ```
 
 A demo of a multiple authors post is shown in [Introducing Tailwind Nextjs Starter Blog post](/blog/introducing-tailwind-nextjs-starter-blog).
