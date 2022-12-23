@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Daily Coding 7',
   author: 'Fikri Abdul',
   headerTitle: 'Daily Coding 7',
-  description: 'A dedicated blog for latest software technology stacks',
+  description: 'A dedicated blog for the latest technology stack',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
@@ -24,7 +24,7 @@ const siteMetadata = {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
-    googleAnalyticsId: 'G-59QVJL95ET', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: 'G-8WTPYTDKSY', // e.g. UA-000000-2 or G-XXXXXXX
     posthogAnalyticsId: '', // posthog.init e.g. phc_5yXvArzvRdqtZIsHkEm3Fkkhm3d0bEYUXCaFISzqPSQ
   },
   newsletter: {
