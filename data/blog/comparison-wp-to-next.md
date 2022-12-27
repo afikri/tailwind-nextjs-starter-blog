@@ -1,10 +1,10 @@
 ---
-title: 'Hello World'
-date: 2022-11-27T15:32:14Z
-lastmod: '2022-11-26'
-tags: ['next-js', 'tailwind', 'guide']
+title: 'Which blogging platform to choose?Wordpress or NextJS'
+date: 2022-12-27T15:32:14Z
+lastmod: '2022-12-27'
+tags: ['next-js', 'wordpress', 'blogging']
 draft: false
-summary: 'Yadda dsadsae'
+summary: 'Indeed, statistically wordpress is the most used as blogging platform and 43.2% of all websites on the internet make use of it. Since 20122, the usage of Wordpress is increasing 12% per year. However,'
 layout: PostSimple
 bibliography: references-data.bib
 canonicalUrl: https://tailwind-nextjs-starter-blog.vercel.app/blog/new-features-in-v1/
