@@ -66,12 +66,9 @@ Ok, now let’s talk about the website using WordPress one by one:
 - **Speed**: As mentioned, several factors beside the hosting that can affect the website loaded significantly slower, they could be loading unoptimized images, heavy themes, loading not optimized plugins and not implementing best practice like caching
 - **Limited functionality**: It depends, if we are going to build a complex software based on wordpress it requires a lot of plugins. When the more plugins are installed, meaning that the more maintenance is required. Updates can cause any plugin to malfunction and cause the whole website cease to work and down completely. Also, there is possibility that plugin conflicts within themselves can render the WordPress backend unusable.
 
-- **SEO problem**
+- **SEO problem**: By its nature, it has not enough SEO features and had to have third party plugin such as YOAST insatlled which is in turn it will build up another plugin at the disposal.
 
-### It's time to switch
-
-When clients consult us, one of their most frequent questions is, “Why should I develop my website with a headless CMS and not use a traditional WordPress site?”
-Let’s break it down for you, comparing and contrasting to help you decide what’s best for you and your thriving enterprise.
+### It's time to switch to NextJS
 
 There are a few potential reasons that might be considered switching from WordPress to Next.js for blogging:
 
