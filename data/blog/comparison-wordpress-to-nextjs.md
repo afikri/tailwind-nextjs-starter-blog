@@ -64,7 +64,7 @@ Ok, now let’s talk about the website using WordPress one by one:
 
 - **Myriad of Plugins**: When there is a need to extend the functionalities of the site, it can be done through plugins, and the that process going again and again until too many plugins which leads to the slower side.
 - **Speed**: As mentioned, several factors beside the hosting that can affect the website loaded significantly slower, they could be loading unoptimized images, heavy themes, loading not optimized plugins and not implementing best practice like caching
-- **Limited functionality**
+- **Limited functionality**: It depends, if we are going to build a complex software based on wordpress it requires a lot of plugins. When the more plugins are installed, meaning that the more maintenance is required. Updates can cause any plugin to malfunction and cause the whole website cease to work and down completely. Also, there is possibility that plugin conflicts within themselves can render the WordPress backend unusable.
 
 - **SEO problem**
 
