@@ -63,9 +63,9 @@ Ok, now let’s talk about the website using WordPress one by one:
 - **Malware**: Due to its open source nature, people all over the world can contribute to software improvements. Here is where the cyber criminals take advantage of the security gap. Since wordpress uses tons of plugins, hackers exploit the plugin vulnerabilities
 
 - **Myriad of Plugins**: When there is a need to extend the functionalities of the site, it can be done through plugins, and the that process going again and again until too many plugins which leads to the slower side.
-- **Speed**: As mentioned,
-
+- **Speed**: As mentioned, several factors beside the hosting that can affect the website loaded significantly slower, they could be loading unoptimized images, heavy themes, loading not optimized plugins and not implementing best practice like caching
 - **Limited functionality**
+
 - **SEO problem**
 
 ### It's time to switch
