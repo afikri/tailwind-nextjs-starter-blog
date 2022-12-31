@@ -55,6 +55,8 @@ Here is a comparison of WordPress and Next.js:
 
 Why have I switched from WordPress to Next.js to blog? I have been blogging with Wordpress since 2011 and I have no problem with it. But until there were too many things changed, one of them is Gutenberg editor. I found it a bit frustrating to use it in terms of navigating the editor and I prefer the classic editor to gutenberg. That's one of the thing.
 
+This website I am using now is based on NextJS, and let's see how far I XYZ
+
 In my opinion, there are some reasons not to use Wordpress even though there are workarounds that cost extra efforts
 Ok, now let’s talk about the website using WordPress one by one:
 
@@ -72,8 +74,7 @@ Ok, now let’s talk about the website using WordPress one by one:
 
 There are a few potential reasons that might be considered switching from WordPress to Next.js for blogging:
 
-- **Performance**: Next.js is a JavaScript framework that is designed to help build fast, server-rendered web applications. This can make it a good choice for blogging platforms that need to handle a large amount of traffic or that want to provide a snappy user experience.
-  **Performance: Next.js is a server-side rendering (SSR) framework, which means that it generates HTML on the server and sends it to the client. This can result in faster page load times, especially for users with slower internet connections. **
+- **Performance**: Next.js is a JavaScript framework that is designed to help build fast, server side rendering (SSR) web applications. This can result in faster page load times especially for users with slower internet connections.
 
 - **Ease of development**: Next.js uses modern JavaScript and has a simple, intuitive API. This can make it easier for developers to build and maintain a blog compared to using WordPress, which can be more complex.
 
