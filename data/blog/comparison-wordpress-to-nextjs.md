@@ -53,6 +53,8 @@ Here is a comparison of WordPress and Next.js:
 
 ## Case Study
 
+Here in my website, [dailycode7.com](https://dailycoding7.com) I am using [the nextjs blog starter](https://github.com/timlrx/tailwind-nextjs-starter-blog).
+
 Why have I switched from WordPress to Next.js to blog? I have been blogging with Wordpress since 2011 and I have no problem with it. But until there were too many things changed, one of them is Gutenberg editor. I found it a bit frustrating to use it in terms of navigating the editor and I prefer the classic editor to gutenberg. That's one of the thing.
 
 This website I am using now is based on NextJS, and let's see how far I XYZ
@@ -78,21 +80,20 @@ There are a few potential reasons that might be considered switching from WordPr
 
 - **Ease of development**: Next.js uses modern JavaScript and has a simple, intuitive API. This can make it easier for developers to build and maintain a blog compared to using WordPress, which can be more complex.
 
-- **Scalability**: Next.js is built with scalability in mind, which can make it a good choice for blogs that are expected to grow quickly or that need to handle a large number of users.
-  **Scalability: Next.js allows you to build serverless applications that can scale automatically to meet demand. This can be more cost-effective than running a traditional server, and it also makes it easier to handle traffic spikes.**
+- **Scalability**: Next.js is allowing to build serverless applicationi with scalability in mind to meet demand, which can make it a good choice for blogs that are expected to grow quickly or that need to handle a large number of users. Plus, it can be more cost-effective than running a traditional server, and it also makes it easier to handle traffic spikes.
 
 - **Integration with other tools**: Next.js can be easily integrated with other tools and technologies, such as APIs and database systems, which can make it a good choice for blogs that need to connect to other systems.
 
-There are several reasons why someone might choose to switch from WordPress to Next.js:
+- **Security**: WordPress is a popular target for hackers, and it can be challenging to keep a WordPress site secure. Next.js, on the other hand, allows you to build applications that are less vulnerable to common attacks.
 
-Security: WordPress is a popular target for hackers, and it can be challenging to keep a WordPress site secure. Next.js, on the other hand, allows you to build applications that are less vulnerable to common attacks.
+- **Ecosystem**: Next.js is built on top of React, which has a large and active developer community. This means that it is easy to find resources and support for building applications with Next.js.
 
-Ecosystem: Next.js is built on top of React, which has a large and active developer community. This means that it is easy to find resources and support for building applications with Next.js.
+- **SEO**: Server-side rendering can be better for search engine optimization (SEO) because the content is generated on the server and is therefore more visible to search engines. This can be particularly beneficial for sites with a lot of dynamic content.
 
-SEO: Server-side rendering can be better for search engine optimization (SEO) because the content is generated on the server and is therefore more visible to search engines. This can be particularly beneficial for sites with a lot of dynamic content.
+The several reasons above might make someone choose to switch from WordPress to Next.js
 
 ## Conclusion
 
-Overall, whether or not switching from WordPress to Next.js is a good idea for your blog will depend on your specific needs and goals. It's worth considering the pros and cons of both platforms to determine which one is the best fit for your needs.
+Overall, whether to switch or not from WordPress to Next.js is a good idea for your blog will depend on your specific needs and goals. It's worth considering the pros and cons of both platforms to determine which one is the best fit for your needs.
 
 It's worth noting that there are also some potential downsides to switching from WordPress to Next.js. For example, Next.js is a relatively new framework, so it may not have as many plugins and integrations as WordPress. Additionally, Next.js requires a deeper understanding of web development concepts, so it may not be as user-friendly as WordPress for non-technical users.
