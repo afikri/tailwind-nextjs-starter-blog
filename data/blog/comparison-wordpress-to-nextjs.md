@@ -53,14 +53,13 @@ Here is a comparison of WordPress and Next.js:
 
 ## Case Study
 
-Here in my website, [dailycode7.com](https://dailycoding7.com) I am using [the nextjs blog starter](https://github.com/timlrx/tailwind-nextjs-starter-blog).
+Here in my website, [dailycode7.com](https://dailycoding7.com) I am using [the nextjs blog starter](https://github.com/timlrx/tailwind-nextjs-starter-blog) template.
 
-Why have I switched from WordPress to Next.js to blog? I have been blogging with Wordpress since 2011 and I have no problem with it. But until there were too many things changed, one of them is Gutenberg editor. I found it a bit frustrating to use it in terms of navigating the editor and I prefer the classic editor to gutenberg. That's one of the thing.
+I have been blogging with Wordpress since 2011 and I have no problem with it. But until there were too many things changed, one of them is Gutenberg editor. I found it a bit frustrating to use it in terms of navigating the editor and I prefer the classic editor to gutenberg. That's one of the thing.
+Now teh question is why have I switched from WordPress to Next.js to blog?
 
-This website I am using now is based on NextJS, and let's see how far I XYZ
-
-In my opinion, there are some reasons not to use Wordpress even though there are workarounds that cost extra efforts
-Ok, now let’s talk about the website using WordPress one by one:
+In my opinion, some reasons not to use Wordpress even though there are workarounds that cost extra efforts
+Ok, now let’s talk about the cons of website using WordPress one by one:
 
 - **Appearance**: It is pretty much determined by many factors, including the theme chosen, the customization options selected, the content and media added to the site, and the design of the site layout of the organization. All those things can be done easily. Besides, It comes with a large selection of customizable themes that can be used to change the appearance of a site. These themes often include pre-designed templates and layouts that can be modified to fit the needs of the site. Users can also play around the appearance of the site using CSS and other design tools to further tailor the look and feel of the site to the liking. Also, the design elements of a WordPress site, the content and media added to the site can also impact its appearance. For example, adding high-quality images and videos can help to make a site more visually appealing, while well-written and informative content can make a site more professional and credible. Overall, the appearance of a WordPress site is largely determined by the design choices made by the user and the content added to the site. With the right theme and customization options, it is possible to create a professional-looking and visually appealing site
 
