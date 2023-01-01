@@ -53,10 +53,7 @@ Here is a comparison of WordPress and Next.js:
 
 ## Case Study
 
-Here in my website, [dailycode7.com](https://dailycoding7.com) I am using [the nextjs blog starter](https://github.com/timlrx/tailwind-nextjs-starter-blog) template.
-
-I have been blogging with Wordpress since 2011 and I have no problem with it. But until there were too many things changed, one of them is Gutenberg editor. I found it a bit frustrating to use it in terms of navigating the editor and I prefer the classic editor to gutenberg. That's one of the thing.
-Now teh question is why have I switched from WordPress to Next.js to blog?
+Here in my website, [dailycode7.com](https://dailycoding7.com) I am using [the nextjs blog starter](https://github.com/timlrx/tailwind-nextjs-starter-blog) template. I have been blogging with Wordpress since 2011 and I have no problem with it. But until there were too many things changed, one of them is Gutenberg editor. I found it a bit frustrating to use it in terms of navigating the editor and I prefer the classic editor to gutenberg. That's one of the thing. Now teh question is why have I switched from WordPress to Next.js to blog?
 
 In my opinion, some reasons not to use Wordpress even though there are workarounds that cost extra efforts
 Ok, now let’s talk about the cons of website using WordPress one by one:
