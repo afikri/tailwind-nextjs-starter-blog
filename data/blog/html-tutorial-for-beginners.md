@@ -33,7 +33,7 @@ Here is an example of a basic HTML structure:
 
 ### Headings
 
-Headings are used to indicate the different sections of your page and are represented by the h1 to h6 tags. The h1 tag is the highest level heading and the h6 tag is the lowest.
+Headings are used to indicate the different sections of the page and are represented by the h1 to h6 tags. The h1 tag is the highest level heading and the h6 tag is the lowest.
 
 ```html
 <h1>This is a level 1 heading</h1>
@@ -55,7 +55,7 @@ Paragraphs are used to contain blocks of text and are represented by the `p` tag
 
 ### Links
 
-Links allow you to link to other pages or websites and are represented by the a (anchor) tag. The href attribute is used to specify the destination of the link.
+Links allow us to link to other pages or websites and are represented by the a (anchor) tag. The href attribute is used to specify the destination of the link.
 
 ```html
 <a href="https://www.example.com">This is a link</a>
@@ -63,10 +63,37 @@ Links allow you to link to other pages or websites and are represented by the a 
 
 ### Images
 
-Images are used to display images on your page and are represented by the img tag. The src attribute is used to specify the source of the image. The alt attribute is used to provide an alternative text description of the image.
+To insert an image in an HTML document, it can be used the `<img>` element. The `<img>` element has a required src attribute that specifies the URL of the image. it can also be used the alt attribute to specify an alternate text for the image, which will be displayed if the image is not available.
+
+Here's an example of how to insert an image in the HTML document:
 
 ```html
 <img src="image.jpg" alt="A description of the image" />
+```
+
+To specify the size of the image, use the width and height attributes. For example:
+
+```html
+<img src="image.jpg" alt="A description of the image" width="200" height="100" />
+```
+
+To align the image within the document, use the `align` attribute. The possible values for the `align` attribute are `left`, `right`, and `middle`. For example:
+
+```html
+<img src="image.jpg" alt="A description of the image" align="left" />
+```
+
+Also use CSS to style and format images. For example, use the border property to add a border around the image, or the float property to wrap text around the image.
+
+Here's an example of how use CSS to add a border around an image:
+
+```css
+<style>
+  img {
+    border: 1px solid black;
+  }
+</style>
+<img src="image.jpg" alt="A description of the image">
 ```
 
 ### Lists
@@ -90,7 +117,7 @@ Ordered lists are represented by the `ol` (ordered list) tag and each list item 
 In HTML, a division or `div` is a container element that is used to group other HTML elements together and apply styles to them. Divisions are often used to create a layout for web pages and to divide a page into sections.
 
 Here's an example of how to use a div element in HTML:
-Divisions are used to group content on your page and are represented
+Divisions are used to group content on the page and are represented
 
 ```html
 <div>
@@ -108,3 +135,104 @@ It also can be applied styles to a `div` element using CSS. For example, the "st
 ```
 
 Divisions are very useful for creating the layout and structure of a web page, and they are an essential part of HTML.
+
+### Formatting Text
+
+To format text on the web page, such as making it bold, italicized, or underlined. To make text bold in HTML, the `<strong>` is used or `<b>` tag. For example, to make the text "Hello, World!" bold, write:
+
+```html
+<strong>Hello, World!</strong>
+```
+
+or
+
+```html
+<b>Hello, World!</b>
+```
+
+To make text italicized in HTML, it can be used the `<em>` or `<i>` tag. For example, to make the text "Hello, World!" italicized, write:
+
+```html
+<em>Hello, World!</em>
+```
+
+or
+
+```html
+<i>Hello, World!</i>
+```
+
+To underline text in HTML, it can be used the `<u>` tag. For example, to underline the text "Hello, World!", type:
+
+```html
+<u>Hello, World!</u>
+```
+
+### Changing font size and color
+
+To change the font size and color of text, it can used the font-size and color properties in Cascading Style Sheets (CSS). Here is an example of how to use these properties in a CSS rule to change the font size and color of an element:
+
+```css
+.example {
+  font-size: 20px;
+  color: blue;
+}
+```
+
+To apply this style to an HTML element, give the element a class name of "example" and apply the style to the class in the stylesheet. For example:
+
+```html
+<p class="example">This text is 20px and blue.</p>
+```
+
+Also possible to use inline styles to apply these styles directly to an HTML element. For example:
+
+```html
+<p style="font-size: 20px; color: blue;">This text is 20px and blue.</p>
+```
+
+It's generally a good idea to use a stylesheet to define styles, rather than using inline styles, because it makes it easier to maintain and reuse styles throughout the website.
+
+### Table and Forms
+
+To create a table in HTML, use the `<table>` element. This element defines a table and is used in conjunction with `<tr>`, which defines a table row, and `<td>`, which defines a table cell. also use `<th>` elements to define table headers.
+
+Here's an example of a simple HTML table:
+
+```html
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Gender</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>30</td>
+    <td>Male</td>
+  </tr>
+  <tr>
+    <td>Jessica</td>
+    <td>25</td>
+    <td>Female</td>
+  </tr>
+</table>
+```
+
+This would create a table with three columns (Name, Age, and Gender) and two rows of data.
+
+To create a form in HTML, use the `<form>` element. This element is used to create an HTML form to send data to server. There are various form elements, such as <input>, <textarea>, and <select>, to create different types of form fields.
+
+Here's an example of a simple HTML form:
+
+```html
+<form>
+  <label for="name">Name:</label><br />
+  <input type="text" id="name" name="name" /><br />
+  <label for="email">Email:</label><br />
+  <input type="text" id="email" name="email" /><br /><br />
+  <input type="submit" value="Submit" />
+</form>
+```
+
+This form contains two text fields (name and email) and a submit button. When the user fills out the form and clicks the submit button, the form data will be sent to the server
