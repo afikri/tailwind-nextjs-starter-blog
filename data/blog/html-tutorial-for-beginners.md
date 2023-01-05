@@ -112,19 +112,21 @@ Ordered lists are represented by the `ol` (ordered list) tag and each list item 
 </ol>
 ```
 
-### Divisions
+### Block Elements
 
-In HTML, a division or `div` is a container element that is used to group other HTML elements together and apply styles to them. Divisions are often used to create a layout for web pages and to divide a page into sections.
+In HTML, block elements are elements that take up the full width of their parent container, and create a new line after them. Some examples of block elements include `<div>`, `<p>`, `<form>`, and `<h1>`.
 
-Here's an example of how to use a div element in HTML:
-Divisions are used to group content on the page and are represented
+Let's take a look at a division or `div`, it is a container element that is used to group other HTML elements together and apply styles to them. Divisions are often used to create a layout for web pages and to divide a page into sections.
+Divisions are very useful for creating the layout and structure of a web page, and they are an essential part of HTML.
 
 ```html
 <div>
-  <p>This paragraph is inside the div element.</p>
-  <p>So is this paragraph.</p>
+  <h3>Heading of block element</h3>
+  <p>This is a block element.</p>
 </div>
 ```
+
+In this example, the `<div>` element is a block element that creates a container for the other elements. The `<p>` element is a block element that creates a new line after itself, while the `<a>` and `<span>` elements are inline elements that do not create a new line.
 
 It also can be applied styles to a `div` element using CSS. For example, the "style" attribute to give the `div` a background color, or a stylesheet can be used to apply more complex styles.
 
@@ -134,7 +136,21 @@ It also can be applied styles to a `div` element using CSS. For example, the "st
 </div>
 ```
 
-Divisions are very useful for creating the layout and structure of a web page, and they are an essential part of HTML.
+### Inline elements
+
+On the other hand, only take up as much width as necessary and do not create a new line after them. Some examples of inline elements include `<a>`, `<span>`, and `<img>`.
+
+It's important to understand the difference between block and inline elements because they can affect the layout of a webpage in different ways. For example, you might want to use block elements to create a container for other elements, or to group elements together. Inline elements are useful when styles to be applied to a small part of a block of text, or when an image to be included within a block of text.
+
+Here's an example of some basic HTML that demonstrates the difference between block and inline elements:
+
+```html
+<div>
+  <p>This is a block element.</p>
+  <a href="#">This is an inline element.</a>
+  <span>This is also an inline element.</span>
+</div>
+```
 
 ### Formatting Text
 
@@ -221,7 +237,7 @@ Here's an example of a simple HTML table:
 
 This would create a table with three columns (Name, Age, and Gender) and two rows of data.
 
-To create a form in HTML, use the `<form>` element. This element is used to create an HTML form to send data to server. There are various form elements, such as <input>, <textarea>, and <select>, to create different types of form fields.
+To create a form in HTML, use the `<form>` element. This element is used to create an HTML form to send data to server. There are various form elements, such as `<input>`, `<textarea>`, and `<select>`, to create different types of form fields.
 
 Here's an example of a simple HTML form:
 
@@ -236,3 +252,40 @@ Here's an example of a simple HTML form:
 ```
 
 This form contains two text fields (name and email) and a submit button. When the user fills out the form and clicks the submit button, the form data will be sent to the server
+
+### Form Elements
+
+HTML provides several form elements that can be used to create interactive forms for the website. Here are some examples:
+
+- **`<input>`**: This element is used to create a variety of form controls, including text inputs, radio buttons, and checkboxes. Here is an example of a text input:
+
+```html
+<label for="email">Email:</label><br />
+<input type="text" id="email" name="email" /><br />
+```
+
+- **`<textarea>`**: This element is used to create a multi-line text input control. Here is an example:
+
+```html
+<label for="message">Message:</label><br />
+<textarea id="message" name="message" rows="5" cols="30"></textarea><br />
+```
+
+- **`<select>`**: This element is used to create a dropdown menu. The `<option>` elements within the `<select>` element define the options that will be displayed in the menu. Here is an example:
+
+```html
+<label for="country">Country:</label><br />
+<select id="country" name="country">
+  <option value="usa">USA</option>
+  <option value="canada">Canada</option>
+  <option value="mexico">Mexico</option></select
+><br />
+```
+
+- **`<button>`**: This element is used to create a clickable button. It can be used the type attribute to specify the type of button (e.g. "submit" to submit a form, or "reset" to reset the form). Here is an example:
+
+```html
+<button type="submit">Submit</button>
+```
+
+To make the look and feel nicely, add CSS to style the form elements and add additional behavior with JavaScript. For example, use CSS to change the colors and fonts of the form elements, and use JavaScript to validate form input or send the form data to a server.
