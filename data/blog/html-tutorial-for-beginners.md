@@ -3,12 +3,12 @@ title: HTML Tutorial for Beginners
 date: '2023-01-05'
 tags: ['html', 'code', 'web development']
 draft: false
-summary: HTML stands for Hypertext Markup Language, a standard markup language used to create web pages. It is essential because it is used to structure the content of a web page, and to make that content accessible to users, search engines, and web browsers. It allows developers to create web pages that can be easily read and navigated by both humans and machines. It is also an crucial tool for SEO (Search Engine Optimization), as it can help search engines understand the content of a web page and determine its relevance to particular search queries.
+summary: HTML stands for Hypertext Markup Language, a standard markup language used to create web pages. It is essential because it is used to structure the content of a web page, and to make that content accessible to users, search engines, and web browsers. It allows developers to create web pages that can be easily read and navigated by both humans and machines.
 ---
 
 ## What is HTML and why is it important?
 
-HTML stands for Hypertext Markup Language, a standard markup language used to create web pages. It is essential because it is used to structure the content of a web page, and to make that content accessible to users, search engines, and web browsers. It allows developers to create web pages that can be easily read and navigated by both humans and machines. It is also an crucial tool for SEO (Search Engine Optimization), as it can help search engines understand the content of a web page and determine its relevance to particular search queries.
+HTML stands for Hypertext Markup Language, a standard markup language used to create web pages. It is essential because it is used to structure the content of a web page, and to make that content accessible to users, search engines, and web browsers. It allows developers to create web pages that can be easily read and navigated by both humans and machines. It is also a crucial tool for SEO (Search Engine Optimization), as it can help search engines understand the content of a web page and determine its relevance to particular search queries.
 
 It consists of a series of elements that are applied to define the structure and content of a web page. These elements are represented by tags, which are written in angle brackets. Some common HTML elements include headings, paragraphs, lists, links, and images. To know better, let's deep dive into it.
 
