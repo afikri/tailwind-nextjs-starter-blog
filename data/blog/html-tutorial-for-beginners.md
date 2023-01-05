@@ -152,6 +152,24 @@ Here's an example of some basic HTML that demonstrates the difference between bl
 </div>
 ```
 
+### Create Page Layout with divs and spans
+
+1. Using divs to create a layout for the page by dividing the page into rows and columns. For example:
+
+```html
+<div class="row">
+  <div class="column">Column 1</div>
+  <div class="column">Column 2</div>
+  <div class="column">Column 3</div>
+</div>
+```
+
+2. Using spans to style a specific part of a block of text. For example:
+
+```html
+<p>This is a paragraph with <span class="emphasis">emphasis</span> on a specific part.</p>
+```
+
 ### Formatting Text
 
 To format text on the web page, such as making it bold, italicized, or underlined. To make text bold in HTML, the `<strong>` is used or `<b>` tag. For example, to make the text "Hello, World!" bold, write:
@@ -289,3 +307,43 @@ HTML provides several form elements that can be used to create interactive forms
 ```
 
 To make the look and feel nicely, add CSS to style the form elements and add additional behavior with JavaScript. For example, use CSS to change the colors and fonts of the form elements, and use JavaScript to validate form input or send the form data to a server.
+
+### Media Queries
+
+In responsive design, media queries are used to apply different styles to a website or web application based on the characteristics of the device displaying it. For example, media query might be used to apply a different style sheet for devices with a screen width of less than 800 pixels, or to change the layout of a page for users who are browsing on a mobile phone. Media queries can be used to check for a number of device characteristics, including screen size, screen resolution, device orientation, and more.
+
+Here's an example of a media query that changes the font size of a webpage for users on devices with a screen width of less than 800 pixels:
+
+```css
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+}
+```
+
+Media queries can be used in the CSS by including them in a `<style> element`, or by linking to a separate stylesheet using the `<link>` element.
+
+```html
+<style>
+  @media only screen and (max-width: 800px) {
+    body {
+      font-size: 14px;
+    }
+  }
+</style>
+```
+
+```html
+<link rel="stylesheet" media="only screen and (max-width: 800px)" href="small.css" />
+```
+
+Media queries can also be used in JavaScript by using the matchMedia function.
+
+```js
+if (window.matchMedia('(max-width: 800px)').matches) {
+  /* do something for small screens */
+} else {
+  /* do something for large screens */
+}
+```
