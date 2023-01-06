@@ -11,7 +11,7 @@ const siteMetadata = {
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'dailycoding7@gmail.com',
-  github: 'https://github.com/dailycoding7',
+  github: 'https://github.com/afikri',
   twitter: 'https://twitter.com/dailycoding7',
   facebook: 'https://www.facebook.com/dailycoding7',
   youtube: 'https://youtube.com',
