@@ -9,4 +9,4 @@ linkedin: https://www.linkedin.com/in/afikri/
 github: https://github.com/afikri
 ---
 
-Fikri Abdul is a professional software developer. His interests includes .
+Hi, I'm Fikri Abdul. I'm professional software developer from South Jakarta, Indonesia.

@@ -1,0 +1,17 @@
+
+User-agent: *
+Allow: /*
+Allow: /blog/*
+Allow: /tags/*
+Allow: /about/*
+
+# User agent "Googlebot" should not crawl the `http://example.com/nogooglebot/` folder or any of its subdirectories.
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+Disallow: /api/*
+Disallow: /_next/*
+Disallow: /js
+
+
+Sitemap:https://dailycoding7.com/sitemap.xml
