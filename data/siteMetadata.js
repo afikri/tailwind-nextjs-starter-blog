@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Fikri Abdul',
   headerTitle: 'Daily Coding 7',
   description:
-    'A dedicated blog for software development focusing on backend and frontend technology stacks i.e PHP Javascript Python',
+    'A dedicated blog for software development focusing on backend and frontend technology stacks i.e PHP, Javascript and Python',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
