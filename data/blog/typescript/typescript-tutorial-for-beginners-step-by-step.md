@@ -18,8 +18,7 @@ To start using TypeScript, what we need to have is Node.js and the TypeScript co
 
 #### 📔 Why use it
 
-TypeScript is designed for the development of large applications and transcompiles to JavaScript.
-Using TypeScript can help improve the maintainability and scalability of the codebase by catching errors early in the development process. The added type checking can also make it easier for other developers to understand and work with the code. Additionally, many popular JavaScript libraries and frameworks, such as Angular and Vue.js, have built-in support for TypeScript.
+Large apps can be developed using TypeScript, which later on transcompiles to JavaScript. Using TypeScript can help improve the maintainability and scalability of the codebase by catching errors early in the development process. The added type checking can also make it easier for other developers to understand and work with the code. Additionally, many popular JavaScript libraries and frameworks, such as Angular and Vue.js, have built-in support for TypeScript.
 
 #### Setting up a TypeScript development environment
 
@@ -64,7 +63,7 @@ and use editor to create a ts code
 </div>
 - (Optional) we could use a code editor that support TypeScript like Visual Studio Code to get IntelliSense and other helpful features.
 
-## Basic Types and Variables
+## 🔥 Basic Types and Variables
 
 #### Primitive data types
 
@@ -140,7 +139,7 @@ It is generally considered best practice to use type inference instead of type a
 
 `let` or `const` are also used to declare variables in TypeScript, `const` are used for variables whose value should not change and `let` for variables whose value can change.
 
-## Classes and Interfaces
+## 🖼️ Classes and Interfaces
 
 In TypeScript, a class is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or properties), and implementations of behavior (member functions or methods). Classes are typically used to model real-world objects and their behavior.
 
@@ -244,7 +243,7 @@ console.log(employee.getAddress()); // "Los Angeles"
 
 In this example, the `Person` class has three properties: `name`, `age`, and `address`. The `name` property is public and can be accessed from anywhere, the `age` property is private and can only be accessed within the class and the `address` property is protected and can be accessed within the class and its derived classes.
 
-## Functions and Generics
+## 🧭 Functions and Generics
 
 Function is a block of code that can be defined and then invoked, or called, multiple times. Functions can take zero or more arguments, and can return a value or not. Here's an example of a simple function in TypeScript:
 
@@ -405,7 +404,7 @@ console.log(result);
 
 In this example above, the function `getProperty` is defined with two generic types, `T` and `K`. The `K` type is constrained to be a subtype of `keyof T`, which means it can only be a string that is a property of T.
 
-## Advanced Types
+## 🚀 Advanced Types
 
 TypeScript supports several advanced types that provide additional functionality and flexibility when working with data types. Here are a few examples:
 
