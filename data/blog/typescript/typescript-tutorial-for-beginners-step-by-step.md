@@ -3,7 +3,7 @@ title: Typescript Tutorial for Beginners Step by Step
 date: '2023-01-20'
 tags: ['code', 'typescript', 'web-development', 'libraries']
 draft: false
-summary: ''
+summary: 'TypeScript is a superset of JavaScript that adds optional static typing, class and interface definitions, making code more maintainable. It can be used in any JavaScript environment and easily integrated with popular frameworks. To use it, install Node.js and the TypeScript compiler and create a new .ts file which can be transpiled to JavaScript.'
 ---
 
 ## 🤝 Introduction to TypeScript
