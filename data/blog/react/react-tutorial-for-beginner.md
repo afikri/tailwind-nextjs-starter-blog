@@ -317,6 +317,7 @@ When the button is clicked, the `setCount` function is called with an updated va
 - **Handling form submissions**<br/>
   Handling form submissions in ReactJS involves using event handlers. The most common event handler for handling form submissions is the onSubmit event.<br/>
   Here's an example of how to handle a form submission in ReactJS:
+
   ```js
   import React, { useState } from 'react'
   const FormExample = () => {
@@ -337,6 +338,9 @@ When the button is clicked, the `setCount` function is called with an updated va
   }
   export default FormExample
   ```
+
+  In this example, the `handleSubmit` function is passed to the `onSubmit` event of the form. The `event.preventDefault()` method is used to prevent the default form submission behavior. Then, the `inputValue` is logged to the console.
+
 - **Understanding controlled and uncontrolled components**
 
 ## 🐛 Debugging and Troubleshooting:
