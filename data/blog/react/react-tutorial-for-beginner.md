@@ -222,7 +222,7 @@ When the button is clicked, the `setCount` function is called with an updated va
 
 ## 🛠️ Working with Props:
 
-- Understanding the concept of props<br/>
+- **Understanding the concept of props**<br/>
   In React, `props` are short for **"properties."** They are data passed down from a parent component to its child component(s).
   The parent component passes the data as attributes on a component's **JSX tag**, and the child component accesses the data through its `props` object.
   Props are used to make components more flexible and reusable by allowing them to receive data from the parent component and dynamically rendering based on that data.
@@ -247,35 +247,105 @@ When the button is clicked, the `setCount` function is called with an updated va
 
   In this example, the `Welcome` component is a child component that receives a `name` prop from its parent component, `App`. The `Welcome` component then uses the `name` prop in its render method to display a personalized greeting. The `App` component uses the `Welcome` component three times, each with a different `name` prop, demonstrating how the same component can be reused with different data.
 
-- Passing data from parent to child components
-- Understanding the use of context
+- **Understanding the use of context** <br/>
+  Context in React is a way to pass data down the component tree **without having to pass props down through every level of the tree**. It provides a way to share data between components that are not directly connected in the component tree hierarchy.<br/>
+  Context can be thought of as a global state for the React application that can be accessed by any component in the application without the need for props drilling. The context data is stored in a "provider" component, and any component that needs access to the context data can **consume** it by using a **consumer** component.
+  Here is the simple of example:
 
-## 🧆 Handling Forms and User Input:
+  ```js
+  import React, { useState, useContext } from 'react'
+  // Define the context and its initial value
+  const MyContext = useContext({ theme: 'light' })
 
-- Building form components
-- Handling form submissions
-- Understanding controlled and uncontrolled components
+  // Provider component
+  const MyProvider = ({ children }) => {
+    const [theme, setTheme] = useState('light')
+    return <MyContext.Provider value={{ theme, setTheme }}>{children}</MyContext.Provider>
+  }
 
-## Building a Complete Application:
+  // Consumer component
+  const MyConsumer = () => {
+    const { theme, setTheme } = useContext(MyContext)
 
-- Setting up a routing system
-- Creating a CRUD application
-- Using external APIs with React
-- Understanding the useEffect() hook
+    return (
+      <div>
+        <div>Current theme: {theme}</div>
+        <button onClick={() => setTheme('dark')}>Switch to dark</button>
+      </div>
+    )
+  }
+  // Usage of context
+  const App = () => {
+    return (
+      <MyProvider>
+        <MyConsumer />
+      </MyProvider>
+    )
+  }
+  ```
 
-## 🪲 Debugging and Troubleshooting:
+## 📝 Handling Forms and User Input:
+
+- **Building form components**<br/>
+  To build form components in ReactJS, you need to use state and event handling. Here's a basic example of how to create a form with a text input and a submit button:
+
+  ```js
+  import React, { useState } from 'react'
+
+  const FormExample = () => {
+    const [inputValue, setInputValue] = useState('')
+    const handleSubmit = (event) => {
+      event.preventDefault()
+      console.log('Input value: ', inputValue)
+    }
+
+    return (
+      <form onSubmit={handleSubmit}>
+        <label>
+          Input:
+          <input type="text" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    )
+  }
+  export default FormExample
+  ```
+
+  This example above uses the `useState` hook to manage the state of the input value and the `onSubmit` event to handle the form submission. The `handleSubmit` function logs the value of the input to the console.
+
+- **Handling form submissions**<br/>
+  Handling form submissions in ReactJS involves using event handlers. The most common event handler for handling form submissions is the onSubmit event.<br/>
+  Here's an example of how to handle a form submission in ReactJS:
+  ```js
+  import React, { useState } from 'react'
+  const FormExample = () => {
+    const [inputValue, setInputValue] = useState('')
+    const handleSubmit = (event) => {
+      event.preventDefault()
+      console.log('Input value: ', inputValue)
+      return (
+        <form onSubmit={handleSubmit}>
+          <label>
+            Input:
+            <input type="text" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      )
+    }
+  }
+  export default FormExample
+  ```
+- **Understanding controlled and uncontrolled components**
+
+## 🐛 Debugging and Troubleshooting:
 
 - Common debugging techniques
 - Understanding the browser developer tools
 - Troubleshooting common React errors
 
-## 🫡 Deployment and Optimization:
-
-- Preparing the application for production
-- Understanding the use of webpack
-- Optimizing the performance of a React application
-
-## 🛸 Advanced Topics:
+## 🚀 Advanced Topics:
 
 - Server-side rendering
 - Code splitting
