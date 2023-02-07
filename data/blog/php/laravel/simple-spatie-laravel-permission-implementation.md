@@ -9,7 +9,7 @@ summary: 'Laravel Permission allows managing user roles & permissions in Laravel
 Here is a steps on how to use spatie/laravel-permission with Laravel 9.\*:
 
 1. **Installation**:
-   Open the terminal and navigate to your Laravel project's root directory.
+   Open the terminal and navigate to the Laravel project's root directory.
 
    - Run the following command to install spatie/laravel-permission:
 
@@ -29,7 +29,7 @@ Here is a steps on how to use spatie/laravel-permission with Laravel 9.\*:
 
 3. **Model setup**:
 
-   - In your User model, add the following line to use the HasRoles trait provided by the package:
+   - In the User model, add the following line to use the HasRoles trait provided by the package:
 
    ```php
    use Spatie\Permission\Traits\HasRoles;
