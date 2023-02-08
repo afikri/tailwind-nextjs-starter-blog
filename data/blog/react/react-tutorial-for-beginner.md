@@ -21,7 +21,7 @@ The steps to do it
 
 Once _Node.js_ and _npm_ are installed, follow these steps to set up a new _React_ project:
 
-1. Create a new folder for your project and navigate to it in the command line.
+1. Create a new folder for the project and navigate to it in the command line.
 2. Run the command `npx create-react-app my-app` to create a new React project. Replace **my-app** with the name of the project.
 3. Navigate to the project folder by running `cd my-app`.
 4. Start the development server by running `npm start` or `yarn start`
@@ -200,25 +200,25 @@ Now, let's deep dive on it
 
   Here's a simple example to demonstrate how state works in React:
 
-```js
-import React, { useState } from 'react'
+  ```js
+  import React, { useState } from 'react'
 
-const MyCounter = () => {
-  // Declare a state variable named "count"
-  const [count, setCount] = useState(0)
+  const MyCounter = () => {
+    // Declare a state variable named "count"
+    const [count, setCount] = useState(0)
 
-  return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
-    </div>
-  )
-}
-```
+    return (
+      <div>
+        <p>You clicked {count} times</p>
+        <button onClick={() => setCount(count + 1)}>Click me</button>
+      </div>
+    )
+  }
+  ```
 
-In the above example, `count` is the state variable and `setCount` is a function that updates the state. The initial value of count is 0.
+  In the above example, `count` is the state variable and `setCount` is a function that updates the state. The initial value of count is 0.
 
-When the button is clicked, the `setCount` function is called with an updated value of `count + 1`. This updates the state and triggers a re-render of the component, causing the displayed value of `count` to change.
+  When the button is clicked, the `setCount` function is called with an updated value of `count + 1`. This updates the state and triggers a re-render of the component, causing the displayed value of `count` to change.
 
 ## 🛠️ Working with Props:
 
@@ -341,7 +341,70 @@ When the button is clicked, the `setCount` function is called with an updated va
 
   In this example, the `handleSubmit` function is passed to the `onSubmit` event of the form. The `event.preventDefault()` method is used to prevent the default form submission behavior. Then, the `inputValue` is logged to the console.
 
-- **Understanding controlled and uncontrolled components**
+- **Understanding controlled** and **uncontrolled components**<br/>
+  In React, components can be classified as either **controlled** or **uncontrolled**. A controlled component is a component that is fully controlled by React, meaning its state and behavior are determined by React and React alone. The value of a controlled component is set by the component's state and updated through event handlers, such as onChange.
+
+  On the other hand, an uncontrolled component is a component that is not controlled by React and its state is managed by the DOM. An uncontrolled component does not have a value set by the component's state, and its value is only updated through user interaction such as typing in a form input.
+
+  In general, it's recommended to use controlled components for most use cases, as they provide more consistent behavior and make it easier to manage the state and behavior of the components. However, there are some cases where using uncontrolled components may be more appropriate, such as for performance reasons or for dealing with legacy code.
+
+  Here's a simple example to demonstrate the difference between controlled and uncontrolled components in React:
+
+  **Uncontrolled Component**:
+
+  ```js
+  class MyForm extends React.Component {
+    handleSubmit = (event) => {
+      event.preventDefault()
+      console.log(this.input.value)
+    }
+
+    render() {
+      return (
+        <form onSubmit={this.handleSubmit}>
+          <label>
+            Name:
+            <input type="text" ref={(input) => (this.input = input)} />
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      )
+    }
+  }
+  ```
+
+  **Controlled Component**:
+
+  ```js
+  class MyForm extends React.Component {
+    state = {
+      name: '',
+    }
+
+    handleChange = (event) => {
+      this.setState({ name: event.target.value })
+    }
+
+    handleSubmit = (event) => {
+      event.preventDefault()
+      console.log(this.state.name)
+    }
+
+    render() {
+      return (
+        <form onSubmit={this.handleSubmit}>
+          <label>
+            Name:
+            <input type="text" value={this.state.name} onChange={this.handleChange} />
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      )
+    }
+  }
+  ```
+
+  In the uncontrolled component example, the input's value is managed by the DOM and retrieved using the `ref` attribute. In the controlled component example, the input's value is managed by the component's state, and updated through the `handleChange` function.
 
 ## 🐛 Debugging and Troubleshooting:
 
