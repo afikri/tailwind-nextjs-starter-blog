@@ -408,14 +408,57 @@ Now, let's deep dive on it
 
 ## 🐛 Debugging and Troubleshooting:
 
-- Common debugging techniques
-- Understanding the browser developer tools
-- Troubleshooting common React errors
+- **Common debugging techniques**<br/>
+  There are some common debugging techniques for React:
 
-## 🚀 Advanced Topics:
+  - Use the React Developer Tools: The React Developer Tools is a browser extension that provides a deeper insight into the React component tree and makes possible to inspect and modify the component state and props.<br/>
 
-- Server-side rendering
-- Code splitting
-- Higher-order components
-- Render props
-- Concurrent mode
+  2. Check the component's state and props: Ensure that the component's state and props are correctly set and passed down. React Developer Tools also can be used to inspect the state and props of a component.
+  3. Use console.log statements: Place console.log statements in the code to see the values of variables and expressions. This is especially useful for understanding how event handlers and lifecycle methods are being executed. <br/>
+  4. Use the browser's debugging tools: The browser's debugging tools provide a wealth of information and allow us to step through the code, set breakpoints, and inspect the call stack.<br/>
+  5. Check for errors in the JavaScript console: The browser's JavaScript console displays any error messages that occur while executing the code. Make sure to check the console for any error messages and stack traces that may indicate the source of the problem.<br/>
+  6. Verify that event handlers are being called: Verify that the correct event handlers are being called and that they are being passed the correct arguments.
+  7. Use the `setState` callback function: If update the state based on the previous state is needed, use the second argument to `setState`, which is a callback function that provides access to the previous state.
+
+- **Understanding the browser developer tools**
+
+  1.  The browser developer tools are a set of built-in tools that come with modern web browsers such as Google Chrome, Mozilla Firefox, Microsoft Edge, and Apple Safari and allow for the inspection, debugging, and optimization of web applications.
+
+  2.  In the context of React, the use of these tools can be incredibly useful for the understanding and fixing of issues with components and applications.
+
+  3.  Common features of the browser developer tools that can be used when working with React include:
+      - The Element Inspector
+      - The Console
+      - The Network Tab
+      - The Performance Tab
+      - The Sources Tab
+  4.  Access to the browser developer tools in a web browser can typically be obtained by right-clicking anywhere on a web page and selecting "Inspect" or "Inspect Element".
+  5.  From there, various tabs and features can be navigated to in order to inspect and debug components and applications.
+
+- **Troubleshooting common React errors**<br/>
+  Here are some common errors in React and suggestions on how to troubleshoot them:
+
+  1. **"Uncaught TypeError: Cannot read property 'map' of undefined"**
+
+
+      - This error occurs when we are trying to map over a data structure that is undefined. To fix this, make sure that the data structure is properly initialized and that it is not undefined before we attempt to map over it.
+
+  2. **"Uncaught ReferenceError: [variable name] is not defined"**
+
+
+      - This error occurs when we are trying to access a variable that has not been defined. Make sure that the variable is properly declared and that it is in the correct scope.
+
+  3. **"Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: [variable type]"**
+
+
+      - This error occurs when we are trying to render an element that is not a valid React component. Make sure that the component we are trying to render is a properly constructed React component and that it is imported correctly.
+
+  4. **"Can only update a mounted or mounting component"**
+
+
+      - This error occurs when you are trying to update a component that has not yet been mounted. Make sure that the component has been successfully mounted before attempting to update it.
+
+  5. **"Invalid prop [prop name] of type [prop type] supplied to [component name], expected [expected prop type]"**
+
+
+      - This error occurs when you are passing a prop to a component with the wrong type. Make sure that the prop you are passing is the correct type and that it matches the expected prop type for the component.
