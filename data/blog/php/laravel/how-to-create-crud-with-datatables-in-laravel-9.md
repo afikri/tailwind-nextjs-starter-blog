@@ -2,7 +2,7 @@
 title: How to create CRUD with datatables in Laravel 9.*
 date: '2023-02-23'
 tags: ['code', 'laravel', 'web-development', 'datatables']
-draft: false
+draft: true
 summary: 'Create a CRUD application using Laravel 9 and YajraBox Datatables involves building a web application using the Laravel PHP framework version 9 and integrating YajraBox Datatables to display and manage data in a tabular format. The application will allow users to perform CRUD (Create, Read, Update, Delete) operations on a database, with the data displayed and manipulated through an interactive datatable. Check it out...'
 ---
 
@@ -156,19 +156,23 @@ Here is a steps on how to create a CRUD Application with datatables in Laravel 9
 
    ![Employees](/static/images/laravel/Employees.png)
 
-4. **Creating Roles and Permissions**:
-   In the application code, roles and permissions can be created using the following code:
+<h1>To be contineued</h1>
+4. **Creating** :Set up routes in the routes/web.php file:
+
 
 ```php
-use Spatie\Permission\Models\Role;
-use Spatie\Permission\Models\Permission;
-$role = Role::create(['name' => 'writer']);
-$permission = Permission::create(['name' => 'edit articles']);
+Route::get('/users', [UserController::class, 'index'])->name('users.index');
+Route::get('/users/create', [UserController::class, 'create'])->name('users.create');
+Route::post('/users', [UserController::class, 'store'])->name('users.store');
+Route::get('/users/{user}', [UserController::class, 'show'])->name('users.show');
+Route::get('/users/{user}/edit', [UserController::class, 'edit'])->name('users.edit');
+Route::put('/users/{user}', [UserController::class, 'update'])->name('users.update');
+Route::delete('/users/{user}', [UserController::class, 'destroy'])->name('users.destroy');
 
-$role->givePermissionTo($permission);
 ```
 
-5. **Assigning Roles and Permissions to Users**:
+5. **Yadda**:
+   Create views for each CRUD operation using Blade templates.
 
    - Roles and permissions can be assigned to users using the following code:
 
@@ -187,20 +191,54 @@ $role->givePermissionTo($permission);
    }
    ```
 
-7. **Middleware**:
-   - The `authorize` middleware can be used to check if a user has the required permission to access a specific resource.
-   - To add the middleware, add the following code to the `app/Http/Kernel.php` file:
-   ```php
-   protected $routeMiddleware = [
-       ...
-       'permission' => \Spatie\Permission\Middlewares\PermissionMiddleware::class,
-   ];
-   ```
-   - Then can be added the middleware to the routes as follows:
-   ```php
-   Route::get('/edit', function () {
-       //
-   })->middleware('permission:edit articles');
-   ```
+   In the index.blade.php file, add a table using YajraBox DataTables:
 
-That's it! Now we have a basic understanding of how to use spatie/laravel-permission with Laravel 9.\*. More information and advanced usage examples in the package documentation can be found on their website.
+```html
+<table class="table-bordered table" id="users-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+</table>
+```
+
+7. In the `index.blade.php` file, add JavaScript and jQuery libraries to handle CRUD operations and AJAX requests:
+
+```html
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/jquery.dataTables.min.js') }}"></script>
+<script src="{{ asset('js/dataTables.bootstrap4.min.js') }}"></script>
+<script>
+  $(function() {
+      $('#users-table').DataTable({
+          processing: true,
+          serverSide: true,
+          ajax: '{!! route('users.index') !!}',
+          columns: [
+              { data: 'name', name: 'name' },
+              { data: 'email', name: 'email' },
+              { data: 'action', name: 'action', orderable: false, searchable: false }
+          ]
+      });
+  });
+</script>
+```
+
+8. In the `EmployeeController.php` file, add methods to handle CRUD operations:
+
+```php
+public function index(Request $request)
+{
+    if ($request->ajax()) {
+        $data = User::latest()->get();
+        return Datatables::of($data)
+            ->addIndexColumn()
+            ->addColumn('action', function($row){
+                $editUrl = route('users.edit', ['user' => $row
+
+```
+
+That's it! Now we have a basic understanding of how to yadda yadda Laravel 9.\*.
