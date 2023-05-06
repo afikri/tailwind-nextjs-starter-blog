@@ -25,7 +25,7 @@ export default function Home({ posts }) {
             className="text-xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 
           sm:text-4xl sm:leading-10 md:text-3xl md:leading-14"
           >
-            Knowledge Sharing in Software Programming
+            Exploring the Latest Advances in AI-Assisted Software Development
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
