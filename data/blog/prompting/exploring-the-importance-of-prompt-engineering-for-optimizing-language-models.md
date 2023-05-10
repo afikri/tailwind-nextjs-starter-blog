@@ -97,7 +97,7 @@ Example Training Data
 ```
 
 **Rule #6** - Be specific. Omit needless words.<br/>
-❌ ChatGPT, write a sales page for my company selling sand in xxxxx
+❌ ChatGPT, write a sales page for my company selling sand in
 the desert, please write only few sentences, nothing long and complex. <br/>
 
 ✔️ Write a 5-sentence sales page, sell sand in the desert.
