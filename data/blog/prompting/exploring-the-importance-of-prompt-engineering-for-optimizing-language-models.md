@@ -9,9 +9,7 @@ summary: ' The article explains how to design and optimize prompts for language 
 
 ## How Prompt Engineering Works
 
-💡 Note: Prompt engineering designs and optimizes prompts for language models
-It's important in NLP and language generation. Prompt formats guide the model and can be used for tasks like product or conversational AI.
-Reliable prompt formats exist, but exploring new format is encouraged.
+💡 Note: Prompt engineering plays a crucial role in the optimization and design of prompts for language models, which is a key aspect of natural language processing and language generation. The format of prompts serves as a guide for language models and can be utilized for various tasks such as conversational AI or product-related tasks. Although there are dependable prompt formats, it is highly recommended to explore new formats as well.
 
 ### 👍 Rules of thumb and Examples
 
