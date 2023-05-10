@@ -1,7 +1,7 @@
 ---
 title: Exploring the Importance of Prompt Engineering for Optimizing Language Models
 date: '2023-05-10'
-tags: ['code', 'reactjs', 'web-development']
+tags: ['chatgpt', 'prompting', 'llm']
 draft: false
 summary: ' The article explains how to design and optimize prompts for language models, which guide the model and can be used for tasks like product or conversational AI. Rules of thumb are given, and examples are provided for extracting data or generating specific content. Fine-tuning can improve model performance, and being specific and concise in prompts is important.
 '
