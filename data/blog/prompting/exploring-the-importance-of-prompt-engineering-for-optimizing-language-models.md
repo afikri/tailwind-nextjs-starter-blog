@@ -118,7 +118,7 @@ import matplotlib
 def plot_net_worth(init, roi):
 ```
 
-**Bonus Prompt**: Let ChatGPT design the Optimal Prompt <br/>
+🤖 **Bonus Prompt**: Let ChatGPT design the Optimal Prompt <br/>
 
 ```python
 You are a robot for creating prompts.
