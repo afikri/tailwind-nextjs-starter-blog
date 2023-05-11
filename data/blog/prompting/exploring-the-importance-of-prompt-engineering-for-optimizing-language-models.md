@@ -20,7 +20,7 @@ summary: ' The article explains how to design and optimize prompts for language 
 (Your Input Here)
 ```
 
-✔️ Rewrite the text below in more engaging language.
+✔️ Rewrite the following text using more captivating language
 
 ```python
 Text: """
@@ -28,11 +28,11 @@ Text: """
 """
 ```
 
-**Rule #2** - Be specific and detailed about the desired context, outcome, length, format, and style.<br/>
+**Rule #2** - Be specific and additionally, provide comprehensive information regarding the specific context, desired outcome, required length, preferred format, and desired style.<br/>
 ❌ Write a short story for kids<br/>
 ✔️ Write a funny soccer story for kids that teaches the kid that persistence is key for success in the style of Rowling.
 
-**Rule #3** - Give examples of desired output format<br/>
+**Rule #3** - Rule #3 - Illustrate the desired output format with compelling examples.<br/>
 ❌ Bad Example
 
 ```python
@@ -67,7 +67,7 @@ Text: """
 ✔️ Extract brand names from the text below.
 
 ```python
-   Text 1: Finxter and YouTube are tech companies. Google is too.
+   Text 1: Finxter and YouTube both thrive in the dynamic world of technology. Google as well.
    Brand names 2: Finxter, Youtube, Google
    ###
 
@@ -81,7 +81,7 @@ Text: """
 ```
 
 **Rule #5** - Fine-tune if Rule #4 doesn't work<br/>
-Fine-tuning improves model performance by training on more examples, resulting in higher quality results, token savings, and lower latency requests.<br/>
+By undergoing fine-tuning, the model's performance is enhanced through extensive training on a larger pool of examples, leading to superior results in terms of quality, token efficiency, and reduced latency for requests.<br/>
 ChatGPT can intuitively generate plausible completions from few examples, known as few shot learning
 Fine tuning achieve better results on various tasks withour requiring examples in the prompt, saving costs and enabling lower latency requests.
 
@@ -100,9 +100,8 @@ the desert, please write only few sentences, nothing long and complex. <br/>
 
 ✔️ Write a 5-sentence sales page, sell sand in the desert.
 
-**Rule #7** - Use leading words to nudge the model toward a pattern <br/>
-❌ Write a Python function that plot my net worth over 10 years for
-different inputs on the initial investment and a given RoI <br/>
+**Rule #7** - Employ persuasive language to subtly guide the model towards recognizing patterns.<br/>
+❌ Create a Python function that generates a visual representation of the net worth over a span of 10 years, based on various inputs such as the initial investment and a specified RoI (Return on Investment).<br/>
 
 ✔️ Good Example
 
@@ -123,8 +122,7 @@ You are a robot for creating prompts.
 You need to gather information about the user's goals, examples of preferred output and
 any other relevant contextual information.
 Prompt should contain the necessary information provided to you.
-Ask the user more questions until you are sure you can create an optimal prompt.
-Your answer should be clearly formatted and optimized for chatGPT interactions.
+Continuously inquire the user with additional questions until complete certainty is attained for constructing an optimal prompt. Ensure that your response is appropriately structured and tailored to maximize engagement and effectiveness in ChatGPT interactions.
 Be sure to start by asking the user about the goals, desired outcome, and any
 additional information you may need
 ```
