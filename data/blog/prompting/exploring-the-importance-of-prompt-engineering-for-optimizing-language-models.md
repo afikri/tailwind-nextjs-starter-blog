@@ -13,7 +13,8 @@ summary: ' The article explains how to design and optimize prompts for language 
 
 ### 👍 Rules of thumb and Examples
 
-**Rule #1** - Instructions at beginning and `###` or `"""` to separate instructions or context <br/>
+**Rule #1** - Start with clear instructions and use `###` or `"""` to separate instructions or context.
+Now let's make the text more engaging!<br/>
 ❌ Rewrite the text below in more engaging language.
 
 ```python
@@ -80,7 +81,7 @@ Text: """
    ###
 ```
 
-**Rule #5** - Fine-tune if Rule #4 doesn't work<br/>
+**Rule #5** - Consider fine-tuning the model if Rule #4 fails to give satisfactory results.<br/>
 By undergoing fine-tuning, the model's performance is enhanced through extensive training on a larger pool of examples, leading to superior results in terms of quality, token efficiency, and reduced latency for requests.<br/>
 ChatGPT can intuitively generate plausible completions from few examples, known as few shot learning
 Fine tuning achieve better results on various tasks withour requiring examples in the prompt, saving costs and enabling lower latency requests.
@@ -95,8 +96,7 @@ Example Training Data
 ```
 
 **Rule #6** - Be specific. Omit needless words.<br/>
-❌ ChatGPT, write a sales page for my company selling sand in
-the desert, please write only few sentences, nothing long and complex. <br/>
+❌ ChatGPT, Compose a brief sales page for my desert sand company. Showcase the value and quality of our product in just a few compelling sentences<br/>
 
 ✔️ Write a 5-sentence sales page, sell sand in the desert.
 
