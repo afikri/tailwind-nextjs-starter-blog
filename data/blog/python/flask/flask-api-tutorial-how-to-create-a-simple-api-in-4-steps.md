@@ -3,8 +3,7 @@ title: Flask API Tutorial - How to Create a Simple API in 4 Steps
 date: '2023-09-19'
 tags: ['api', 'code', 'python', 'flask']
 draft: false
-summary: 
-In this brief article, I'll show you how to create a minimal Python API using the Flask microframework. I'll provide a step-by-step walkthrough for building a basic API that returns a JSON message.
+summary: In this brief article, I am going to show you how to create a minimal Python API using the Flask microframework. I will provide a step-by-step walkthrough for building a basic API that returns a JSON message.
 ---
 
 In this short article, I want to demonstrate how to write the simplest API python code by using Flask microframework.
