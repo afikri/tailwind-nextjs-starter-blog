@@ -44,12 +44,7 @@ To start to dive into the Redux, what we need to do first it to install it using
 npm install react-redux redux --save
 ```
 
-With these tools in your arsenal, you're equipped to conquer the Redux realm like a seasoned warrior!
-
-🔄 **The Refactoring Branch: Elevating Your Redux Game**
-
-Ready to level up your Redux skills? ====>>>>The `refactoring` branch awaits, offering a deeper dive into advanced Redux concepts and best practices. 💡 ====>>>>
-
+🔄 **The Refactoring Branch**
 Here, we refine our understanding of Redux, exploring intricate patterns and techniques to streamline our state management process. From middleware magic to immutable updates, this branch is your gateway to Redux mastery.
 
 🚀 **Your Redux Journey Begins Here**
