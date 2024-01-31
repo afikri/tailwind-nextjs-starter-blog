@@ -6,8 +6,8 @@ draft: false
 summary: In this brief article, I am going to show you how to create a minimal Python API using the Flask microframework. I will provide a step-by-step walkthrough for building a basic API that returns a JSON message.
 ---
 
-`In this short article, I want to demonstrate how to write the simplest API python code by using Flask microframework.`
-`I will walk you through it step by step to create a basic API that responds with a JSON message.`
+In this short article, I want to demonstrate how to write the simplest API python code by using Flask microframework.
+I will walk you through it step by step to create a basic API that responds with a JSON message.
 
 #### Step 1
 
