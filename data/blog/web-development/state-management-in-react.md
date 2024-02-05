@@ -44,9 +44,6 @@ To start to dive into the Redux, what we need to do first it to install it using
 npm install react-redux redux --save
 ```
 
-🔄 **The Refactoring Branch**
-Here, we refine our understanding of Redux, exploring intricate patterns and techniques to streamline our state management process. From middleware magic to immutable updates, this branch is your gateway to Redux mastery.
+Here, we start to understand Redux from bottom up.
 
-🚀 **Your Redux Journey Begins Here**
-
-Whether you're a newbie navigating the Redux landscape or a seasoned pro seeking to refine your skills, this repository is your compass in the vast sea of state management. So, grab your gear, choose your branch, and embark on an exhilarating Redux adventure today! 🌟
+Whether you're a newbie navigating the Redux or a seasoned pro seeking to refine your skills, this repository is your compass in the vast sea of state management.
