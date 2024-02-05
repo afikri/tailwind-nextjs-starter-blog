@@ -12,7 +12,7 @@ tags:
     'Web Development',
     'Beginners Guide',
   ]
-draft: false
+draft: true
 summary: '🚀💻⚡️'
 ---
 
@@ -45,5 +45,3 @@ npm install react-redux redux --save
 ```
 
 Here, we start to understand Redux from bottom up.
-
-Whether you're a newbie navigating the Redux or a seasoned pro seeking to refine your skills, this repository is your compass in the vast sea of state management.
