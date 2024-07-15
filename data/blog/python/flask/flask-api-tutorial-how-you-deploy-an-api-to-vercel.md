@@ -2,7 +2,7 @@
 title: Flask API Tutorial - How you deploy an API to Vercel
 date: '2023-09-26'
 tags: ['api', 'code', 'python', 'flask', 'vercel']
-draft: false
+draft: true
 summary: In this brief article, I am going to show you how to create a minimal Python API using the Flask microframework. I will provide a step-by-step walkthrough for building a basic API that returns a JSON message.
 ---
 
